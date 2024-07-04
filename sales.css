@@ -1,0 +1,1056 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: none;
+    
+}
+
+.nav{
+    height: 90px;
+    width: 100%;
+    background-color:#ffffff ;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    z-index: 999;
+
+
+    
+
+}
+
+/* .nav-bar{
+    height: 50px;
+    width: 60px;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+    
+} */
+
+/* .nav-bar i{
+    font-size: 30px;
+} */
+.nav-left{
+    display: flex;
+    align-items: center;
+    width: 75%;
+
+}
+
+.navlogo{
+    
+    
+    background-size: contain;
+    background-image: url("salesforce-with-type-logo.svg");
+    background-position: center;
+    height: 80px;
+    width: 70px;
+    background-repeat: no-repeat;
+    margin-left:40px;
+    margin-right: 20px;
+    
+    
+    
+
+}
+.nav ul{
+    padding-left: 0%;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: rgb(28, 1, 85);
+    font-weight:550px;
+    margin-left: 20px;
+
+}
+
+.nav-menu{
+    /* right: 15px; */
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+     
+    color: rgb(28, 1, 85);
+    
+
+
+
+
+}
+.menu-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    padding-top: 5px;
+    
+    
+    
+}
+.menu-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 20px; */
+
+    
+    /* margin-left: 20px; */
+
+
+}
+.globe{
+    font-size: 20px;
+
+}
+
+.menu-icon h4{
+    margin-left: 3px;
+}
+
+
+.free{
+    background-color: #2e844a;
+    padding: 15px;
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 25px;
+    width: 125px;
+}
+
+.navhov1:hover{
+    color: #0176d3;
+}
+.navhov2:hover{
+    /* border-radius: 5px; */
+    /* background-color: rgb(3, 91, 120); */
+    color: #0176d3;
+}
+.navhov3:hover{
+    color: #0176d3;
+    border-radius: 40%;
+
+
+}
+.navhov4:hover{
+    background-color: rgb(2, 47, 2);
+}
+
+.panel{
+    height: 50px;
+    width: 100%;
+    margin-top:90px;
+    
+    background-color: rgb(18, 30, 99);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: rgb(6, 4, 4);
+}
+.p-text{
+    /* background-color: rgb(178, 208, 234); */
+    padding: 5px;
+    margin-right: 5px;
+    color: aliceblue;
+    font-weight: 600;
+}
+.panel a{
+    color: white;
+    font-weight: 400;
+    
+
+}
+
+.pageone{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height:510px ;
+    background-image: url("php-marquee-starter-lg-bg.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    
+    /* margin-left: 150px; */
+    /* margin-top: 70px; */
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+    
+
+}
+.pageone-text{
+    width: 33%;
+    margin-top: 20px;
+
+}
+.pageone-text h1{
+    font-size:55px ;
+    padding: 30px;
+    padding-left: 0px;
+   color:  #032d60; 
+}
+.pageone-text p{
+    font-size: 20px;
+    line-height: 35px;
+    
+}
+.text-boxes{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    height: 150px;
+    
+    gap: 20px;
+
+
+}
+
+
+.text-box{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 50px;
+    font-size: large;
+    border-radius: 5px;
+    
+
+    
+}
+.box1{
+    color: rgb(255, 255, 255);
+    background-color:#0176d3 ;
+}
+.box2{
+    color: #0176d3;
+    border: 2px solid #0176d3 ;
+}
+
+.box1:hover{
+    background-color: #032d60;
+}
+.box2:hover{
+    background-color:aliceblue;
+    border-color:black ;
+    color: black;
+}
+
+
+.pageone-img{
+    margin-top: 80px;
+    width: 40%;
+    height: 400px;
+    border-radius: 15px;
+    background-color: blanchedalmond;
+    background-image: url("EPhLojrTKLFGqAWw9ECW23.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* .pageone-img video{
+    height: 100%;
+    width: 100%;
+
+
+} */
+
+
+
+/* !!!!!!! page 2 styling  !!!!!!!!!! */
+
+.pagetwo{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("pb-hp-products-bg.png");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.title{
+    background-color: #ffffff;
+    color: #032d60;
+    height: 100px;
+    width: 840px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    text-align: center;
+
+
+}
+
+
+.dabbe4{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 100px;
+    position: relative;
+    padding-right: 25px;
+    padding-left: 25px;
+
+
+
+}
+.back{
+    height: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+
+}
+.sam{
+    height: 450px;
+    width: 25%;
+    background-color: #ffffff;
+    /* border:2px solid black; */
+    border-radius: 15px;
+    
+    
+    box-shadow: 2px 2px 2px 2px rgba(207, 204, 204);
+
+}
+
+.backdabbaone{
+    background-image: url("pb-hp-product-smb_icon-1.jpg");
+    
+
+}
+
+.backdabbatwo{
+    background-image: url("pb-hp-product-smb_icon-2.jpg");
+
+}
+.backdabbathree{
+    background-image: url("pb-hp-product-smb_icon-3.jpg");
+
+}
+.backdabbafour{
+    background-image: url("pb-hp-product-smb_icon-4.jpg");
+
+}
+.dabbatext{
+    padding: 25px;
+    padding-top: 10px;
+    line-height: 25px;
+    
+    
+
+
+}
+.dabbatext h3{
+    font-size: larger;
+    font-weight: 600;
+    color: #032d60;
+    /* margin-bottom: 100px; */
+
+    
+}
+.dabbatext p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sam a{
+    position: absolute;
+    bottom: 30px;
+    color: black;
+}
+
+.page2projects{
+    height: 50px;
+    width: 250px;
+    /* background-color: aqua; */
+    margin-top: 50px;
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: 500;
+
+
+
+}
+
+
+/* page3 begins !!!! */
+
+.page3{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: none;
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.page3title{
+    font-size:30px;
+}
+
+.page3-text{
+    background-color: #ffffff;
+    color: #032d60;
+    height: 200px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    gap: 50px;
+    line-height:28px;
+}
+
+.page3-boxes{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100px;
+    width: 400px;
+    gap: 20px;
+
+
+}
+.page3box{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+
+/* page4 begins:::: */
+
+.page4{
+    margin-top: 80px;
+    background-image: none;
+}
+
+.page4title{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+
+}
+.page4title p{
+    font-size: 17px;
+    word-wrap: normal;
+    margin-top: 25px;
+    width: 728px;
+    line-height:28px;
+    color: #032d60;
+
+
+.page4dabbe{
+    gap: 70px;
+    justify-content: center;
+    width: 90%;
+}
+
+
+}
+.sam4{
+    width: 27%;
+}
+
+.back4{
+    height: 33%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-top:11% ;
+    /* margin-bottom: 6%; */
+
+
+}
+
+.backdabbaone4{
+    background-image: url("259d8619519bb3912ef0100cee5071cc_badge.png");
+    
+
+}
+
+.backdabbatwo4{
+    background-image: url("259d8619519bb3912ef0100cee5071cc_badge.png");
+
+}
+.backdabbathree4{
+    background-image: url("b91b2499486a772a4eee8ce55aa32b57_badge.png");
+
+}
+.modulle{
+    font-size: 12px;
+    background-color: #1ea7fd33;
+    font-weight: 600;
+    color: #032d60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5%; */
+    margin-left: 20px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: 50px;
+    line-height: 10px;
+    
+}
+.page4end{
+    margin-bottom: 150px;
+}
+
+
+
+/* page 5 begins:::: */
+
+
+.page5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("pb-hp-logos-bg-2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 40%;
+}
+
+.page5title{
+    line-height: 45px;
+    width: 55%;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+.page5view{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.page5cards{
+    min-height:300px ;
+    width: 90%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 200px;
+  
+    
+}
+.card-deco{
+
+    height: 100px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(207, 204, 204);
+    box-sizing: border-box;
+    
+
+}
+.card1{
+    background-image: url("in-hp-min-logo-balaji.png");
+}
+.card2{
+    background-image: url("in-hp-min-logo-flame.png");
+}
+.card3{
+    background-image: url("in-hp-min-logo-genpact.png");
+    
+}
+.card4{
+    background-image: url("in-hp-min-logo-godrejboyce.png");
+}
+.card5{
+    background-image: url("in-hp-min-logo-mahindra.png");
+}
+.card6{
+    background-image: url("in-hp-min-logo-pepe.png");
+}
+.card7{
+    background-image: url("in-hp-min-logo-razorpay.png");
+}
+.card8{
+    background-image: url("in-hp-min-logo-secutech.png");
+}
+
+
+/* page6 begins :: */
+.page6{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.bigd{
+    width: 80%;
+    height:500px ;
+    
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    
+    padding: 20px 0px 20px 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(207, 204, 204);
+    box-sizing: border-box;
+    
+    
+
+
+
+}
+.bigdtext{
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+   
+    height: 85%;
+    padding-top:70px ;
+
+}
+.page6head{
+    background-color: #ffffff;
+    color: #032d60;
+    height: 80%;
+    display: flex;
+    font-size: 1.8rem;
+    
+
+
+}
+
+.page6-boxes{
+    display: flex;
+    
+    
+    
+    height: 100px;
+    width: 400px;
+    gap: 20px;
+    
+}
+.page6box{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    
+    
+}
+
+
+
+.bigdback{
+    width: 45%;
+    height: 90%;
+    
+    
+    background-image: url("php-free-trial-mobile-inr2000-940w.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* page 7 begins ::: */
+
+.page7{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.page7bigd{
+    width: 95%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+}
+.bigdtitle{
+    line-height: 45px;
+    width: 62%;
+    font-size: 30px;
+    padding-left: 100px;
+    
+    color: #032d60;
+
+}
+
+.page7blocks{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+
+}
+
+.block{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(207, 204, 204);
+    box-sizing: border-box;
+    padding: 20px; */
+
+
+}
+.blockimg{
+    width: 100%;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+.blockimg-1{
+    background-image: url(" php-products-small-business-in.jpg");
+}
+
+.blockimg-2{
+    background-image: url("php-products-sales-in.jpg ");
+}
+
+.blockimg-3{
+    background-image: url("php-products-service-in.jpg ");
+}
+
+.blockimg-4{
+    background-image: url(" php-products-marketing.jpg");
+}
+
+.block a{
+    color: #032d60;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+
+/* page 8 begins :::*/
+
+.page8{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+    background-image: url("pb-hp-products-bg-2 copy.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 40%;
+    
+}
+.page8bigd{
+    width: 95%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 300px;
+    
+
+
+}
+.page8title{
+    line-height: 45px;
+    width: 62%;
+    font-size: 28px;
+    
+    padding-right: 20px;
+    color: #032d60;
+    padding-left: 100px;
+
+}
+
+.page8blocks{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    
+    margin-top: 70px;
+    padding: 0px 100px 0px 100px;
+
+}
+
+.p8block{
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    /* box-shadow: 2px 2px 2px 2px rgba(207, 204, 204);
+    box-sizing: border-box;
+    padding: 20px; */
+
+
+}
+
+.p8block p{
+    color: #032d60;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.page8blockimg-1{
+    background-image: url(" group-201168.png");
+}
+
+.page8blockimg-2{
+    background-image: url("group-201169.png");
+}
+
+.page8blockimg-3{
+    background-image: url("group-201170.png");
+}
+
+
+/* page 9 begins :: */
+
+.page9{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+   
+    
+}
+
+.p9bigd{
+    width: 85%;
+
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:center ;
+    align-items: center;
+    padding:0px 0px 50px 0px;
+
+    background-image: url("pb-hp-footer-mid3-in.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 25px;
+
+}
+
+.p9bigd h2{
+    line-height: 45px;
+    width: 62%;
+    font-size: 40px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    color: #032d60;
+    /* padding-left: 100px; */
+
+
+}
+
+.p9bigd p{
+    width: 55%;
+
+    color: #032d60;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
+
+
+}
+
+.p9boxes{
+    margin-top: 30px;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 30px;
+    align-items: center;
+    
+
+}
+
+.p9anchor a{
+    color: #032d60;
+    font-weight: 600;
+
+}
+
+
+/* page 10 begins :: */
+
+.page10{
+    margin-top: 80px;
+    display: flex;
+    margin-left: 0%;
+    margin-bottom: 80px;
+
+}
+
+.p10bigd{
+    width: 85%;
+
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+
+    
+
+
+}
+
+
+
+
+.p10logo{
+    width: 100px;
+    height: 100px;
+    
+    background-image: url("salesforce-with-type-logo.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 20px;
+    
+}
+.p10icons{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.p10hov:hover{
+color: #0176d3;
+
+}
+
+
+.roots p{
+    color: #032d60;
+    font-weight: 600;
+    font-size: 17px;
+    
+    margin-bottom: 40px;
+
+}
+
+.roots a{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    font-size: 15px;
+
+    text-decoration: none;
+
+}
+.root1 p{
+    color: rgb(48, 47, 47);
+    font-weight: 600;
+
+}
+
+
+/* footer ::: )) */
+
+.foot{
+    height: 100px;
+    width: auto;
+    background-color: #032d60;
+    color: #ffffff;
+    display: flex;
+    padding-left: 150px;
+    gap: 20px;
+    align-items: center;
+
+      
+}
+.wide{
+    display: flex;
+    gap: 10px;
+    width: 100px;
+    height: auto;
+}
+.footlist{
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    
+}
+.footlist a{
+    
+    color: white;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.footlist ul {
+    width: max-content;
+    color: white;
+    display: flex;
+    
+    gap: 15px;
+}
+
+.copy{
+    display: flex;
+    gap: 5px;
+    padding-left: 50px;
+    width: max-content;
+
+
+}
